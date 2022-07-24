@@ -20,7 +20,7 @@ const Navbar = () => {
                             <a class="nav-link active fw-light" href="#">Contact</a>
                         </li>
                         <li class="nav-item px-5">
-                            <a class="nav-link active fw-light">About</a>
+                            <a class="nav-link active fw-light" href="#">About</a>
                         </li>
                     </ul>
                 </div>
