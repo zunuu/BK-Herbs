@@ -1,0 +1,16 @@
+.navlinks {
+    border-radius: 50%;
+    border: 0.5px solid transparent;
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.596);
+}
+
+.navlinks:hover {
+    background-color: white;
+    border: 0.5px solid rgb(129, 199, 38);
+}
+
+
+/* .logonav {
+    padding: 35px 10px;
+} */

@@ -31,7 +31,7 @@ const ParticlesComponent = (props) => {
                 },
                 modes: {
                     push: {
-                        quantity: 3, // number of particles to add on click
+                        quantity: 5, // number of particles to add on click
                     },
                     repulse: {
                         distance: 200, // distance of the particles from the cursor
@@ -44,7 +44,7 @@ const ParticlesComponent = (props) => {
                 },
                 links: {
 
-                    distance: 500, // maximum distance for linking the particles
+                    distance: 50, // maximum distance for linking the particles
                 },
                 move: {
                     enable: true, // enabling this will make particles move in the canvas
@@ -52,7 +52,7 @@ const ParticlesComponent = (props) => {
                     direction: "bottom",
                 },
                 opacity: {
-                    value: { min: 0.1, max: 1 }, // using a different opacity, to have some semitransparent effects
+                    value: { min: 0.3, max: 1 }, // using a different opacity, to have some semitransparent effects
                 },
                 shape: {
                     type: "image",
