@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-// import ParticlesComponent from '../ParticlesComponent';
+import ParticlesComponent from '../ParticlesComponent';
 // import Particles from '../../ParticlesComponent'
 import logoimg from '../../images/plant (2).png'
 import './Banner.css'
@@ -19,7 +19,7 @@ const Banner = () => {
                     <button className='catalogue'><a className='text-white text-decoration-none' href={catalouge} download >See Our Catalogue </a></button>
                 </p>
             </div>
-            {/* <ParticlesComponent id="tsparticles" /> */}
+            <ParticlesComponent id="tsparticles" />
         </div>
     );
 };

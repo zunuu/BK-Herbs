@@ -1,7 +1,7 @@
 .navlinks {
     border-radius: 50%;
     border: 0.5px solid transparent;
-    transition: 1s;
+    transition: 0.5s;
     background-color: rgba(255, 255, 255, 0.596);
 }
 

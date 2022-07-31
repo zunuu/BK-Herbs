@@ -6,18 +6,18 @@ const Contact = () => {
     return (
         <div className='contact'>
             <Navbar></Navbar>
-            <div className='d-flex  align-items-center contact-us'>
+            <div className='d-flex row align-items-center mx-auto contact-us'>
                 <div className='col-xl-6 col-lg-4 col-md-4 col-sm-12 col-12'>
                     <img className='w-75' src={contactbanner} alt="" />
                 </div>
                 <div className='col-xl-6 col-lg-4 col-md-4 col-sm-12 col-12'>
-               <p className="p-5 bg-success bg-opacity-10 rounded-3 text-start fs-4">
-                 Phone : +88(0)1840401819 
-                 <hr/>
-                 Adress : (Green Way) Moghbazar, Dhaka-1217,Bangladesh
-                 <hr/>
-                 Email : info.bkherbs@gmail.com
-               </p>
+                    <p className="p-5 bg-success bg-opacity-10 rounded-3 text-start fs-4">
+                        Phone : +88(0)1840401819
+                        <hr />
+                        Adress : (Green Way) Moghbazar, Dhaka-1217,Bangladesh
+                        <hr />
+                        Email : info.bkherbs@gmail.com
+                    </p>
                 </div>
             </div>
         </div>
