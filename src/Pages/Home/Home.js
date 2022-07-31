@@ -4,9 +4,9 @@ import Slider from "../Home/Slider"
 import "./Home.css"
 const Home = () => {
     return (
-        <div>
+        <div className='home'>
             <Banner></Banner>
-            <Slider></Slider>
+            {/* <Slider></Slider> */}
         </div>
     );
 };

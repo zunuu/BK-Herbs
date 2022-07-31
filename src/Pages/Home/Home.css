@@ -1,6 +1,10 @@
+.home {
+    min-height: 100vh;
+}
+
 .summary-div {
     width: 100%;
-    height: 600px;
+    height: 500px;
     /* background-color: blueviolet;
     background-image: url(../../images/marko-blazevic-SOz6YQcC_5c-unsplash.jpg);
     background-repeat: no-repeat;
@@ -13,6 +17,6 @@
     /* height: 150px; */
     padding: 50px;
     border-radius: 60px;
-    background-color: rgb(211, 211, 211);
-
+    background-color: rgba(192, 238, 174, 0.918);
+    font-family: sans-serif;
 }

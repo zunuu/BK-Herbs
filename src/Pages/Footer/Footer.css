@@ -1,0 +1,52 @@
+.footer {
+    height: 100px;
+}
+
+li {
+    display: block;
+}
+
+.brandName {
+    font-size: 25px !important;
+    display: block;
+    padding: 0;
+    transition: 0.5s;
+    height: 40px;
+    margin: 5px;
+}
+
+.brandName:hover {
+    font-size: 26px !important;
+    color: rgb(255, 111, 28);
+    padding-bottom: 3px;
+}
+
+li span {
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+    text-align: center;
+}
+
+.formBtn,
+.formInput {
+    border: none;
+    padding: 10px 10px !important;
+    margin-right: 7px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.formBtn:hover {
+
+    border-radius: 20px;
+}
+
+.formInput:hover {
+
+    border-radius: 20px;
+}
+
+.companyLogo {
+    align-items: center !important;
+    justify-content: center;
+}
